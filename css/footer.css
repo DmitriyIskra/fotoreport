@@ -1,0 +1,95 @@
+/* -------- FOOTER */
+
+.footer {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    justify-content: center;
+
+    background-color: #06080C;
+    border-top: 1px solid #323744;
+}
+
+.footer__wr-content {
+    display: flex;
+    width: 1110px;
+    min-width: 1110px;
+}
+
+.footer__wr-logo-address {
+    width: 26%;
+}
+
+.footer__wr-phone {
+    display: flex;
+    gap: 7px;
+    margin-top: 21px;
+}
+
+.footer__phone-icon {
+    height: 16px;
+    width: 16px;
+
+    background: no-repeat url(../svg/phone-pink.svg);
+    background-position: center;
+}
+
+.footer__phone-link {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 17px;
+
+    color: #D11F8A;
+}
+
+.footer__wr-nav {
+    display: flex;
+    width: 31%;
+
+    justify-content: space-between;
+}
+
+.footer__nav-list {
+    display: flex;
+    gap: 17px;
+
+    flex-direction: column;
+}
+
+.footer__nav-link {
+    font-family: 'Futura PT';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer__nav-link:hover {
+    color: #D11F8A;
+}
+
+.footer__wr-button-social-icons {
+    display: flex;
+    gap: 40px;
+
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer__button-order {
+    width: 239px;
+    height: 45px;
+
+    font-family: 'Futura PT';
+    font-weight: 600;
+    font-size: 18px;
+
+    background: #D11F8A;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer__social-icons-list {
+    display: flex;
+    gap: 31px;
+}

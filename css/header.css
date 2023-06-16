@@ -1,0 +1,83 @@
+/* ____________ H E A D E R ____________ */
+
+.header {
+    display: flex;
+    padding: 37px 0;
+
+    background-color: #D11F8A;
+    background-image: url(../img/background-header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
+    justify-content: center;
+}
+
+.header__wr-content {
+    width: 1110px;
+    min-width: 1110px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.header__wr-logo-city {
+    display: flex;
+    height: 45px;
+
+    align-items: center;
+    gap: 42px;
+}
+
+.header__city {
+    display: flex;
+
+    align-items: center;
+}
+
+.header__city-link {
+    font-family: 'Futura PT';
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #FFFFFF;
+}
+
+.header__adress {
+    display: flex;
+    gap: 118px;
+}
+
+.header__wr-icons {
+    display: flex;
+    gap: 34px;
+
+    align-items: center;
+}
+
+.header__icon {
+    height: 15px;
+}
+
+.header__wr-phone {
+    display: flex;
+    gap: 16px;
+
+    align-items: center;
+}
+
+.header__phone-icon {
+    height: 16px;
+    width: 16px;
+
+    background: no-repeat url(../svg/phone.svg);
+    background-position: center;
+}
+
+.header__phone-link {
+    font-family: 'Futura PT';
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #FFFFFF;
+}
